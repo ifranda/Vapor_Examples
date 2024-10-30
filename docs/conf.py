@@ -1,11 +1,3 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-
 project = 'Vapor_Examples'
 copyright = '2024, Ian'
 author = 'Ian'
@@ -18,6 +10,23 @@ extensions = [
     # other Sphinx extensions
 ]
 
+# From geocat:
+# extensions = [
+#     'sphinx_gallery.gen_gallery',
+#     'nbsphinx',
+#     'sphinx_gallery.load_style',
+#     "sphinx_design",
+# ]
+
+
+
+html_theme_options = {
+    "logo": {
+        "image_light": '_static/images/NSF_NCAR_light.svg',
+        "image_dark": '_static/images/NSF_NCAR_dark.svg',
+    }
+}
+
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -28,7 +37,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 import sphinx_rtd_theme
-html_theme = "sphinx_rtd_theme"
+html_theme = "sphinx_book_theme"
 html_static_path = ['_static']
 
 

@@ -6,12 +6,29 @@
 Vapor_Examples documentation
 ============================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+This gallery contains visualization examples from VAPOR's Python API
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    tutorials/workflow_example
+
+.. toctree::
+   :caption: Usage
+   :hidden:
+
+   ./install
+   ./citation
+
+.. toctree::
+   :caption: Contributing
+   :hidden:
+
+   ./contrib
+
+.. toctree::
+   :caption: Support
+   :hidden:
+
+   ./support
