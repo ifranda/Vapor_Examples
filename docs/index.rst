@@ -13,6 +13,7 @@ This gallery contains visualization examples from VAPOR's Python API
    :caption: Gallery:
 
    tutorials/workflow_example
+   tutorials/AGU_2023_example
 
 .. toctree::
    :caption: Usage
