@@ -27,6 +27,8 @@ html_theme_options = {
     }
 }
 
+html_favicon = '_static/vapor-win-icon.ico'
+
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
