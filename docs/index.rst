@@ -10,7 +10,7 @@ This gallery contains visualization examples from VAPOR's Python API
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
+   :caption: Gallery:
 
    tutorials/workflow_example
 
